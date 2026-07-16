@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment files
+.env.local
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
