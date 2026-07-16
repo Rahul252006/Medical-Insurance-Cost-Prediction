@@ -24,7 +24,8 @@ https://your-streamlit-app.streamlit.app
 
 | Home | Prediction |
 |------|------------|
-| ![Home](images/home.png) | ![Prediction](images/prediction.png) |
+| ![Home](<img width="1470" height="835" alt="image" src="https://github.com/user-attachments/assets/78b9bda4-89f9-4f0f-ada1-8fecd1004bb3" />
+) | ![Prediction](images/prediction.png) |
 
 ---
 
