@@ -15,9 +15,13 @@ st.set_page_config(
 # Load Saved Model
 # -----------------------------------------
 
-model = joblib.load("models/insurance_lasso_model.pkl")
+from pathlib import Path
 
-feature_columns = joblib.load("models/feature_columns.pkl")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+model = joblib.load(BASE_DIR / "models" / "insurance_lasso_model.pkl")
+feature_columns = joblib.load(BASE_DIR / "models" / "feature_columns.pkl")
 
 
 # -----------------------------------------
