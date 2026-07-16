@@ -1,8 +1,15 @@
 # 🏥 Medical Insurance Cost Prediction
 
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+
+![Streamlit](https://img.shields.io/badge/Streamlit-Live-red)
+
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+
+![License](https://img.shields.io/badge/License-Apache%202.0-green)
 A machine learning web application that predicts annual medical insurance charges based on customer information such as age, BMI, smoking status, gender, number of children, and region.
 
-The project covers the complete machine learning workflow—from exploratory data analysis and feature engineering to model selection, hyperparameter tuning, and deployment using Streamlit.
+The project covers the complete machine learning workflow—from exploratory data analysis and feature engineering to model selection, hyperparameter tuning, and deployment using Render.
 
 > **Note:** This model is trained on the **Medical Cost Personal Dataset (US)**. The predicted values represent annual medical insurance charges from this dataset and are displayed in **US Dollars (USD)**.
 
@@ -10,22 +17,23 @@ The project covers the complete machine learning workflow—from exploratory dat
 
 ## 🚀 Live Demo
 
-> Add your deployed Streamlit link here after deployment.
+
 
 ```
-https://your-streamlit-app.streamlit.app
+https://medical-insurance-cost-prediction-t798.onrender.com/
 ```
 
 ---
 
 ## 📷 Application Preview
 
-> Add screenshots after deployment.
+
 
 | Home | Prediction |
 |------|------------|
-| ![Home](<img width="1470" height="835" alt="image" src="https://github.com/user-attachments/assets/78b9bda4-89f9-4f0f-ada1-8fecd1004bb3" />
-) | ![Prediction](images/prediction.png) |
+|(<img width="1470" height="835" alt="image" src="https://github.com/user-attachments/assets/78b9bda4-89f9-4f0f-ada1-8fecd1004bb3" />
+) | ![Prediction](<img width="1470" height="834" alt="image" src="https://github.com/user-attachments/assets/79f021d4-07bb-45da-89fe-02662c900065" />
+) |
 
 ---
 
@@ -46,13 +54,15 @@ The project includes:
 - ElasticNet Regression
 - Hyperparameter Tuning using GridSearchCV
 - Model Evaluation
-- Streamlit Deployment
+- Render Deployment
 
 ---
 
 # 📂 Dataset
 
 **Dataset:** Medical Cost Personal Dataset (US)
+Source:
+https://www.kaggle.com/datasets/mirichoi0218/insurance?resource=download
 
 ### Features
 
@@ -189,7 +199,7 @@ feature_columns.pkl
 
 ### Phase 18
 
-Streamlit Deployment
+Render Deployment
 
 - Interactive User Interface
 - Real-time Prediction
@@ -231,7 +241,7 @@ Medical-Insurance-Cost-Prediction/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Medical-Insurance-Cost-Prediction.git
+git clone https://github.com/Rahul252006/Medical-Insurance-Cost-Prediction.git
 ```
 
 Move into the project
@@ -284,35 +294,37 @@ streamlit run app/app.py
 | Final Algorithm | Lasso Regression |
 | Encoding | pd.get_dummies() |
 | Hyperparameter Tuning | GridSearchCV |
-| Deployment | Streamlit |
+| Deployment | Render |
 
----
 
-# 🔮 Future Improvements
-
-- Support additional datasets
-- Add model comparison dashboard
-- Explain predictions using SHAP values
-- Deploy using Docker
-- Integrate cloud database
-- Add user authentication
-
----
 
 # 📄 License
 
-This project is developed for educational and portfolio purposes.
+This project is licensed under the Apache 2.0 License.
 
 ---
+# 🎯 Results
+
+- Successfully trained and evaluated multiple regression models.
+- Lasso Regression achieved the best overall performance.
+- Developed an interactive Streamlit application for real-time predictions.
+- Successfully deployed the application on Render.
 
 # 👨‍💻 Author
 
 **Rahul Simhadri**
 
-Computer Science Student
+B.Tech Information Technology, VIT Vellore
 
-Interested in Artificial Intelligence, Machine Learning, and Full-Stack Development.
+Interested in:
+- Machine Learning
+- Artificial Intelligence
+- Data Science
+- Full-Stack Development
 
-LinkedIn: *(Add your LinkedIn URL)*
+GitHub:
+https://github.com/Rahul252006
 
-GitHub: *(Add your GitHub URL)*
+LinkedIn:
+https://www.linkedin.com/in/rahulsimhadri06/
+
